@@ -17,7 +17,7 @@ namespace bank_system
 
             States state = States.LOGGED_OUT;
 
-            Card currentCard=new Card();
+            Card currentCard = new Card();
 
             bool shouldExit = false;
             while(!shouldExit)
@@ -112,7 +112,12 @@ namespace bank_system
                             break;
                         }
 
-                    case States.EXIT: shouldExit = true; break;
+                    case States.EXIT:
+                        {
+                            shouldExit = true;
+                            Console.WriteLine("Bye!");
+                            break;
+                        }
                     default: break;
                 }
             }

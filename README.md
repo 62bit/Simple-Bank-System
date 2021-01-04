@@ -1,5 +1,5 @@
 # Simple-Bank-System
-Creating and storing credit cards on SQLite server.
+Creating and storing credit cards on SQLite server, Luhn Algorithm implementation.
 
 # Luhn Algorithm
 The Luhn algorithm is used to validate a credit card number or other identifying numbers, such as Social Security. The Luhn algorithm, also called the Luhn formula or modulus 10, checks the sum of the digits in the card number and checks whether the sum matches the expected result or if there is an error in the number sequence. After working through the algorithm, if the total modulus 10 equals zero, then the number is valid according to the Luhn method.
